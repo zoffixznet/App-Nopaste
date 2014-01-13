@@ -1,6 +1,7 @@
-package App::Nopaste::Service::Codepeek;
 use strict;
 use warnings;
+package App::Nopaste::Service::Codepeek;
+
 use base 'App::Nopaste::Service';
 
 sub uri { 'http://codepeek.com/paste' }

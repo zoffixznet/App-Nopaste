@@ -1,6 +1,7 @@
-package App::Nopaste::Service::Shadowcat;
 use strict;
 use warnings;
+package App::Nopaste::Service::Shadowcat;
+
 use base 'App::Nopaste::Service';
 
 sub available {

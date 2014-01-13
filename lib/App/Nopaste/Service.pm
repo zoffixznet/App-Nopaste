@@ -1,6 +1,7 @@
-package App::Nopaste::Service;
 use strict;
 use warnings;
+package App::Nopaste::Service;
+
 use WWW::Mechanize;
 
 sub available         { 1 }

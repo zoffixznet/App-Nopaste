@@ -1,6 +1,7 @@
-package App::Nopaste::Service::Pastie;
 use strict;
 use warnings;
+package App::Nopaste::Service::Pastie;
+
 use base 'App::Nopaste::Service';
 
 my %languages = (

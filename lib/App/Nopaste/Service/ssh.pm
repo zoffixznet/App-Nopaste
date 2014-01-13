@@ -1,6 +1,7 @@
-package App::Nopaste::Service::ssh;
 use strict;
 use warnings;
+package App::Nopaste::Service::ssh;
+
 use base 'App::Nopaste::Service';
 use File::Temp;
 use File::Spec;

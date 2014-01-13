@@ -1,6 +1,7 @@
-package App::Nopaste::Service::Debian;
 use strict;
 use warnings;
+package App::Nopaste::Service::Debian;
+
 use base 'App::Nopaste::Service';
 
 my $languages = {

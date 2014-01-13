@@ -1,7 +1,6 @@
-package App::Nopaste::Command;
-
 use strict;
 use warnings;
+package App::Nopaste::Command;
 
 use Getopt::Long::Descriptive ();
 

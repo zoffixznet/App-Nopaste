@@ -1,6 +1,7 @@
-package App::Nopaste::Service::Ubuntu;
 use strict;
 use warnings;
+package App::Nopaste::Service::Ubuntu;
+
 use base 'App::Nopaste::Service';
 
 my $languages = {

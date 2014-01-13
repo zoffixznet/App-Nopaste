@@ -1,6 +1,7 @@
-package App::Nopaste::Service::Gist;
 use strict;
 use warnings;
+package App::Nopaste::Service::Gist;
+
 use base 'App::Nopaste::Service';
 
 use File::Basename ();

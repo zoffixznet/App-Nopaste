@@ -1,6 +1,7 @@
-package App::Nopaste::Service::PastebinCom;
 use strict;
 use warnings;
+package App::Nopaste::Service::PastebinCom;
+
 use base 'App::Nopaste::Service';
 
 sub available {

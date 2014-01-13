@@ -1,6 +1,7 @@
-package App::Nopaste::Service::Snitch;
 use strict;
 use warnings;
+package App::Nopaste::Service::Snitch;
+
 use base 'App::Nopaste::Service';
 
 sub available {
