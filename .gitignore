@@ -1,14 +1,3 @@
-*.swp
-MANIFEST
-MANIFEST.bak
-MANIFEST.SKIP
-MYMETA.json
-MYMETA.yml
-META.yml
-Makefile
-Makefile.old
-SIGNATURE
-blib/
-inc/
-pm_to_blib
-App-Nopaste-*
+/.build/
+/App-Nopaste-*/
+/App-Nopaste-*.tar.gz

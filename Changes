@@ -1,4 +1,8 @@
-Revision history for App-Nopaste
+Revision history for {{$dist->name}}
+
+{{$NEXT}}
+        - packaging converted to Dist::Zilla; handling of optional features
+          fixed (see RT#91053)
 
 0.92    2013-04-26
         Fix the language mappins for Ubuntu's pastebin (Sergey Romanov)
