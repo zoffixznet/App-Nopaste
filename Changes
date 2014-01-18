@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+        - updated and fixed debian and ubuntu language mappings (haarg, PR#1)
 
 0.93      2014-01-14 00:41:21Z
         - packaging converted to Dist::Zilla; handling of optional features
