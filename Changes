@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+0.94      2014-01-18 22:13:29Z
         - updated and fixed debian and ubuntu language mappings (haarg, PR#1)
 
 0.93      2014-01-14 00:41:21Z
