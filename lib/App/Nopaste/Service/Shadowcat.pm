@@ -13,12 +13,12 @@ sub available {
 sub uri { "http://paste.scsys.co.uk" }
 
 1;
-
 __END__
+
+=pod
 
 =head1 NAME
 
 App::Nopaste::Service::Shadowcat - http://paste.scsys.co.uk/
 
 =cut
-

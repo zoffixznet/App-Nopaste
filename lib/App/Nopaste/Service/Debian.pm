@@ -274,8 +274,9 @@ sub return {
 }
 
 1;
-
 __END__
+
+=pod
 
 =head1 NAME
 
@@ -286,4 +287,3 @@ App::Nopaste::Service::Debian - http://paste.debian.net/
 Ryan Niebur, C<< <ryanryan52@gmail.com> >>
 
 =cut
-

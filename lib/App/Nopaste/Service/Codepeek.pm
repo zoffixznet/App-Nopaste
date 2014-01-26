@@ -33,8 +33,9 @@ sub return {
 }
 
 1;
-
 __END__
+
+=pod
 
 =head1 NAME
 
@@ -45,4 +46,3 @@ App::Nopaste::Service::Codepeek - http://codepeek.com
 Justin Hunter, C<< <justin.d.hunter@gmail.com> >>
 
 =cut
-

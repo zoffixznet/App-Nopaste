@@ -13,12 +13,12 @@ sub available {
 sub uri { "http://nopaste.snit.ch" }
 
 1;
-
 __END__
+
+=pod
 
 =head1 NAME
 
 App::Nopaste::Service::Snitch - http://nopaste.snit.ch/
 
 =cut
-

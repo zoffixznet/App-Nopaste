@@ -141,14 +141,13 @@ sub read_text {
 }
 
 1;
-
 __END__
+
+=pod
 
 =head1 NAME
 
 App::Nopaste::Command - command-line utility for L<App::Nopaste>
-
-nopaste - command-line utility to nopaste
 
 =head1 DESCRIPTION
 

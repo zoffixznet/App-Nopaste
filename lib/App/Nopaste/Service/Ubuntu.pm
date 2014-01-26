@@ -232,8 +232,9 @@ sub return {
 }
 
 1;
-
 __END__
+
+=pod
 
 =head1 NAME
 
@@ -247,4 +248,3 @@ gregor herrmann, C<< <gregoa@debian.org> >>
 Ryan Niebur, C<< <ryanryan52@gmail.com> >>)
 
 =cut
-

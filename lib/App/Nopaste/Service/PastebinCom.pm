@@ -28,8 +28,9 @@ sub run {
 }
 
 1;
-
 __END__
+
+=pod
 
 =head1 NAME
 
@@ -40,4 +41,3 @@ App::Nopaste::Service::PastebinCom - http://pastebin.com/
 L<WWW::Pastebin::PastebinCom::Create>
 
 =cut
-

@@ -60,8 +60,9 @@ sub run {
 }
 
 1;
-
 __END__
+
+=pod
 
 =head1 NAME
 
@@ -118,4 +119,3 @@ files won't run and defaults the character set to UTF-8 so browsers
 don't have to guess wrong.
 
 =cut
-

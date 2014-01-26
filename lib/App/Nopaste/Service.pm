@@ -90,6 +90,11 @@ sub return {
     return (1, $link->url);
 }
 
+1;
+__END__
+
+=pod
+
 =head1 NAME
 
 App::Nopaste::Service - base class for nopaste services
@@ -171,6 +176,3 @@ pasted text.
 Shawn M Moore, C<< <sartak at gmail.com> >>
 
 =cut
-
-1;
-

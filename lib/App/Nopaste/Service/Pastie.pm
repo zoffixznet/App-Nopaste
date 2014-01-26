@@ -93,12 +93,12 @@ sub return {
 }
 
 1;
-
 __END__
+
+=pod
 
 =head1 NAME
 
 App::Nopaste::Service::Pastie - http://pastie.org
 
 =cut
-

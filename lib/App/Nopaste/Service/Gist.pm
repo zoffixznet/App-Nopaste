@@ -138,8 +138,9 @@ sub return {
 }
 
 1;
-
 __END__
+
+=pod
 
 =head1 NAME
 
@@ -172,4 +173,3 @@ That's it!
 Ricardo SIGNES, C<< <rjbs@cpan.org> >>
 
 =cut
-
