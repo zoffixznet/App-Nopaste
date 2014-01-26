@@ -1,6 +1,9 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+        - bumped the minimum version needed for the (optional) prerequisite
+          WWW::Pastebin::PastebinCom::Create, to avoid errors in previous
+          versions (thanks, Zoffix!)
 
 0.94      2014-01-18 22:13:29Z
         - updated and fixed debian and ubuntu language mappings (haarg, PR#1)
