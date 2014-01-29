@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+        - added missing prereqs
 
 0.95      2014-01-26 17:41:29Z
         - bumped the minimum version needed for the (optional) prerequisite

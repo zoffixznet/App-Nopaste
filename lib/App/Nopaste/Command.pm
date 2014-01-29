@@ -5,6 +5,7 @@ package App::Nopaste::Command;
 use Getopt::Long::Descriptive ();
 
 use App::Nopaste;
+use Module::Runtime 'use_module';
 
 sub new_with_options {
     my $class = shift;
@@ -109,13 +110,12 @@ sub run {
     my $url = App::Nopaste->nopaste(%args);
 
     if ($self->copy) {
-        require Clipboard;
-        Clipboard->import;
+        use_module('Clipboard')->import;
         Clipboard->copy($url);
     }
 
     if ($self->open_url) {
-        require Browser::Open;
+        use_module('Browser::Open');
         Browser::Open::open_browser($url);
     }
 
@@ -130,8 +130,7 @@ sub read_text {
     }
 
     if ($self->paste) {
-        require Clipboard;
-        Clipboard->import;
+        use_module('Clipboard')->import;
         return Clipboard->paste;
     }
 

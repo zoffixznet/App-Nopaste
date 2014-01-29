@@ -6,6 +6,7 @@ use base 'App::Nopaste::Service';
 
 use File::Basename ();
 use JSON ();
+use Module::Runtime 'use_module';
 
 sub available         { 1 }
 sub forbid_in_default { 0 }
@@ -49,7 +50,7 @@ sub run {
             );
         }
         else {
-            require HTTP::Request::Common;
+            use_module('HTTP::Request::Common');
             my $req = HTTP::Request::Common::POST($url, Content => $content);
             $req->authorization_basic(@auth{qw/username password/});
             $ua->request($req);

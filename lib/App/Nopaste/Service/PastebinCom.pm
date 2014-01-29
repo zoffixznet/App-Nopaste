@@ -3,16 +3,17 @@ use warnings;
 package App::Nopaste::Service::PastebinCom;
 
 use base 'App::Nopaste::Service';
+use Module::Runtime 'use_module';
 
 sub available {
-    eval "require WWW::Pastebin::PastebinCom::Create; 1"
+    eval { use_module('WWW::Pastebin::PastebinCom::Create'); 1 }
 }
 
 sub run {
     my $self = shift;
     my %args = @_;
 
-    require WWW::Pastebin::PastebinCom::Create;
+    use_module('WWW::Pastebin::PastebinCom::Create');
 
     $args{poster} = delete $args{nick} if defined $args{nick};
     $args{format} = delete $args{lang} if defined $args{lang};
