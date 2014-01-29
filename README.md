@@ -2,6 +2,10 @@
 
 App::Nopaste - easy access to any pastebin
 
+# VERSION
+
+version 0.96
+
 # SYNOPSIS
 
     use App::Nopaste 'nopaste';
@@ -86,7 +90,7 @@ Shawn M Moore, `sartak@gmail.com`
 
 # COPYRIGHT AND LICENSE
 
-Copyright 2008-2010 Shawn M Moore.
+Copyright 2008- Shawn M Moore.
 
 This program is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.
