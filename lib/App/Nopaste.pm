@@ -106,7 +106,7 @@ public viewing. They're used a lot in IRC channels to show code that would
 normally be too long to give directly in the channel (hence the name nopaste).
 
 Each pastebin is slightly different. When one pastebin goes down (I'm looking
-at you, L<http://paste.husk.org>), then you have to find a new one. And if you
+at you, C<ttp://paste.husk.org>), then you have to find a new one. And if you
 usually use a script to publish text, then it's too much hassle.
 
 This module aims to smooth out the differences between pastebins, and provides
